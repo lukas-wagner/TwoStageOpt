@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CentralElectrolyzerOptimization
+Bundle-SymbolicName: electrolyzerOptimization
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: centralElectrolyzerOptimization
+Bundle-RequiredExecutionEnvironment: JavaSE-11

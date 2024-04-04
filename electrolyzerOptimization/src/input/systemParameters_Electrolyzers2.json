@@ -1,0 +1,428 @@
+{
+	"inputsSystem": [
+		"input-0"
+	],
+	"minPowerSystemInput": [
+		0.0
+	],
+	"maxPowerSystemInput": [
+		7.2
+	],
+	"minPowerSystemOutput": 0.0,
+	"maxPowerSystemOutput": 4.493311503,
+	"temporalResolutionOptimizationModel": 0.25,
+	"resourceParameters": [
+		{
+			"name": "Electrolyzer1",
+			"numberOfInputs": 1,
+			"energyCarrierInputs": [],
+			"minPowerInput": 0.0,
+			"minPowerInputs": [
+				0.0
+			],
+			"maxPowerInput": 2.4,
+			"maxPowerInputs": [
+				2.4
+			],
+			"minPowerOutput": 0.0,
+			"maxPowerOutput": 1.497770501,
+			"minRampInput": 0.0,
+			"maxRampInput": 1.7976931348623157E308,
+			"minRampOutput": 0.0,
+			"maxRampOutput": 1.7976931348623157E308,
+			"latencyOfOutput": 0,
+			"target": 0.0,
+			"numerOfInputOfTarget": 0,
+			"systemStates": [
+				{
+					"stateID": 0,
+					"stateName": "off",
+					"maxStateDuration": 9999.0,
+					"minStateDuration": 4,
+					"maxStateDurationInH": 9999.0,
+					"minStateDurationInH": 8.1499199999962,
+					"followerStates": [
+						2
+					],
+					"latency": 0,
+					"minPowerInput": 0.0,
+					"maxPowerInput": 0.0,
+					"maxPowerOutput": 0.0,
+					"minRampInput": 1.8358502030628377E-6,
+					"maxRampInput": 3456,
+					"minRampOutput": 22.14774831657662,
+					"maxRampOutput": 24979.016829206583,
+					"inputIsEqualToOutput": false
+				},
+				{
+					"stateID": 1,
+					"stateName": "standby",
+					"maxStateDuration": 9999.0,
+					"minStateDuration": 2.0,
+					"maxStateDurationInH": 9999.0,
+					"minStateDurationInH": 0.5001599999377504,
+					"followerStates": [
+						0,
+						2
+					],
+					"latency": 0,
+					"minPowerInput": 0.192,
+					"maxPowerInput": 0.192,
+					"maxPowerOutput": 0.0,
+					"minRampInput": 0.0,
+					"maxRampInput": 3456,
+					"minRampOutput": 8.484686850745106,
+					"maxRampOutput": 8.484686850745106,
+					"inputIsEqualToOutput": false
+				},
+				{
+					"stateID": 2,
+					"stateName": "production",
+					"maxStateDuration": 9999.0,
+					"minStateDuration": 4.0,
+					"maxStateDurationInH": 9999.0,
+					"minStateDurationInH": 0.5001599999377504,
+					"followerStates": [
+						0,
+						1
+					],
+					"latency": 0,
+					"minPowerInput": 0.192,
+					"maxPowerInput": 2.4,
+					"maxPowerOutput": 1.497770501,
+					"minRampInput": 0.0,
+					"maxRampInput": 3456,
+					"minRampOutput": 8.484686850745106,
+					"maxRampOutput": 8.484686850745106,
+					"inputIsEqualToOutput": false
+				}
+			],
+			"numberOfSystemStates": 0,
+			"initialSystemState": 0,
+			"isSecondaryResource": false,
+			"primaryResource": "",
+			"efficiency": 0.0,
+			"slope": 0,
+			"intercept": 0,
+				"plaList": [
+				[
+					{
+						"lowerBound": 0.0,
+						"upperBound": 0.6,
+						"slope": 0.5106,
+						"intercept": -0.0644
+					},
+					{
+						"lowerBound": 0.6,
+						"upperBound": 1.2,
+						"slope": 0.8344,
+						"intercept": -0.1395
+					},
+					{
+						"lowerBound": 1.2,
+						"upperBound": 1.8,
+						"slope": 0.5596,
+						"intercept": 0.1523
+					},
+					{
+						"lowerBound": 1.8,
+						"upperBound": 2.4,
+						"slope": 0.5621,
+						"intercept": 0.1492
+					}
+				]
+			],
+			"isStorage": false,
+			"maximumStorageCapacity": 0.0,
+			"minimumStorageCapacity": 0.0,
+			"unitConversionFactorStorage": 1.0,
+			"capacitySetPoints": {},
+			"staticEnergyLoss": 0.0,
+			"dynamicEnergyLoss": 0.0,
+			"referenceDynamicEnergyLoss": 0.0,
+			"efficiencyInputStorage": 1.0,
+			"efficiencyOutputStorage": 1.0,
+			"efficiencyOutputReciprocal": 1.0,
+			"degradation": 0.0
+		},
+		{
+			"name": "Electrolyzer2",
+			"numberOfInputs": 1,
+			"energyCarrierInputs": [],
+			"minPowerInput": 0.0,
+			"minPowerInputs": [
+				0.0
+			],
+			"maxPowerInput": 2.4,
+			"maxPowerInputs": [
+				2.4
+			],
+			"minPowerOutput": 0.0,
+			"maxPowerOutput": 1.497770501,
+			"minRampInput": 0.0,
+			"maxRampInput": 1.7976931348623157E308,
+			"minRampOutput": 0.0,
+			"maxRampOutput": 1.7976931348623157E308,
+			"latencyOfOutput": 0,
+			"target": 0.0,
+			"numerOfInputOfTarget": 0,
+			"systemStates": [
+				{
+					"stateID": 0,
+					"stateName": "off",
+					"maxStateDuration": 9999.0,
+					"minStateDuration": 4,
+					"maxStateDurationInH": 9999.0,
+					"minStateDurationInH": 8.1499199999962,
+					"followerStates": [
+						2
+					],
+					"latency": 0,
+					"minPowerInput": 0.0,
+					"maxPowerInput": 0.0,
+					"maxPowerOutput": 0.0,
+					"minRampInput": 1.8358502030628377E-6,
+					"maxRampInput": 3456,
+					"minRampOutput": 22.14774831657662,
+					"maxRampOutput": 24979.016829206583,
+					"inputIsEqualToOutput": false
+				},
+				{
+					"stateID": 1,
+					"stateName": "standby",
+					"maxStateDuration": 9999.0,
+					"minStateDuration": 2.0,
+					"maxStateDurationInH": 9999.0,
+					"minStateDurationInH": 0.5001599999377504,
+					"followerStates": [
+						0,
+						2
+					],
+					"latency": 0,
+					"minPowerInput": 0.192,
+					"maxPowerInput": 0.192,
+					"maxPowerOutput": 0.0,
+					"minRampInput": 0.0,
+					"maxRampInput": 3456,
+					"minRampOutput": 8.484686850745106,
+					"maxRampOutput": 8.484686850745106,
+					"inputIsEqualToOutput": false
+				},
+				{
+					"stateID": 2,
+					"stateName": "production",
+					"maxStateDuration": 9999.0,
+					"minStateDuration": 4.0,
+					"maxStateDurationInH": 9999.0,
+					"minStateDurationInH": 0.5001599999377504,
+					"followerStates": [
+						0,
+						1
+					],
+					"latency": 0,
+					"minPowerInput": 0.192,
+					"maxPowerInput": 2.4,
+					"maxPowerOutput": 1.497770501,
+					"minRampInput": 0.0,
+					"maxRampInput": 3456,
+					"minRampOutput": 8.484686850745106,
+					"maxRampOutput": 8.484686850745106,
+					"inputIsEqualToOutput": false
+				}
+			],
+			"numberOfSystemStates": 0,
+			"initialSystemState": 0,
+			"isSecondaryResource": false,
+			"primaryResource": "",
+			"efficiency": 0.0,
+			"slope": 0,
+			"intercept": 0,
+			"plaList": [
+				[
+					{
+						"lowerBound": 0.0,
+						"upperBound": 0.6,
+						"slope": 0.5106,
+						"intercept": -0.0644
+					},
+					{
+						"lowerBound": 0.6,
+						"upperBound": 1.2,
+						"slope": 0.8344,
+						"intercept": -0.1395
+					},
+					{
+						"lowerBound": 1.2,
+						"upperBound": 1.8,
+						"slope": 0.5596,
+						"intercept": 0.1523
+					},
+					{
+						"lowerBound": 1.8,
+						"upperBound": 2.4,
+						"slope": 0.5621,
+						"intercept": 0.1492
+					}
+				]
+			],
+			"isStorage": false,
+			"maximumStorageCapacity": 0.0,
+			"minimumStorageCapacity": 0.0,
+			"unitConversionFactorStorage": 1.0,
+			"capacitySetPoints": {},
+			"staticEnergyLoss": 0.0,
+			"dynamicEnergyLoss": 0.0,
+			"referenceDynamicEnergyLoss": 0.0,
+			"efficiencyInputStorage": 1.0,
+			"efficiencyOutputStorage": 1.0,
+			"efficiencyOutputReciprocal": 1.0,
+			"degradation": 0.0
+		},
+		{
+			"name": "Electrolyzer3",
+			"numberOfInputs": 1,
+			"energyCarrierInputs": [],
+			"minPowerInput": 0.0,
+			"minPowerInputs": [
+				0.0
+			],
+			"maxPowerInput": 2.4,
+			"maxPowerInputs": [
+				2.4
+			],
+			"minPowerOutput": 0.0,
+			"maxPowerOutput": 1.497770501,
+			"minRampInput": 0.0,
+			"maxRampInput": 1.7976931348623157E308,
+			"minRampOutput": 0.0,
+			"maxRampOutput": 1.7976931348623157E308,
+			"latencyOfOutput": 0,
+			"target": 0.0,
+			"numerOfInputOfTarget": 0,
+			"systemStates": [
+				{
+					"stateID": 0,
+					"stateName": "off",
+					"maxStateDuration": 9999.0,
+					"minStateDuration": 4,
+					"maxStateDurationInH": 9999.0,
+					"minStateDurationInH": 8.1499199999962,
+					"followerStates": [
+						2
+					],
+					"latency": 0,
+					"minPowerInput": 0.0,
+					"maxPowerInput": 0.0,
+					"maxPowerOutput": 0.0,
+					"minRampInput": 1.8358502030628377E-6,
+					"maxRampInput": 3456,
+					"minRampOutput": 22.14774831657662,
+					"maxRampOutput": 24979.016829206583,
+					"inputIsEqualToOutput": false
+				},
+				{
+					"stateID": 1,
+					"stateName": "standby",
+					"maxStateDuration": 9999.0,
+					"minStateDuration": 2.0,
+					"maxStateDurationInH": 9999.0,
+					"minStateDurationInH": 0.5001599999377504,
+					"followerStates": [
+						0,
+						2
+					],
+					"latency": 0,
+					"minPowerInput": 0.192,
+					"maxPowerInput": 0.192,
+					"maxPowerOutput": 0.0,
+					"minRampInput": 0.0,
+					"maxRampInput": 3456,
+					"minRampOutput": 8.484686850745106,
+					"maxRampOutput": 8.484686850745106,
+					"inputIsEqualToOutput": false
+				},
+				{
+					"stateID": 2,
+					"stateName": "production",
+					"maxStateDuration": 9999.0,
+					"minStateDuration": 4.0,
+					"maxStateDurationInH": 9999.0,
+					"minStateDurationInH": 0.5001599999377504,
+					"followerStates": [
+						0,
+						1
+					],
+					"latency": 0,
+					"minPowerInput": 0.192,
+					"maxPowerInput": 2.4,
+					"maxPowerOutput": 1.497770501,
+					"minRampInput": 0.0,
+					"maxRampInput": 3456,
+					"minRampOutput": 8.484686850745106,
+					"maxRampOutput": 8.484686850745106,
+					"inputIsEqualToOutput": false
+				}
+			],
+			"numberOfSystemStates": 0,
+			"initialSystemState": 0,
+			"isSecondaryResource": false,
+			"primaryResource": "",
+			"efficiency": 0.0,
+			"slope": 0,
+			"intercept": 0,
+				"plaList": [
+				[
+					{
+						"lowerBound": 0.0,
+						"upperBound": 0.6,
+						"slope": 0.5106,
+						"intercept": -0.0644
+					},
+					{
+						"lowerBound": 0.6,
+						"upperBound": 1.2,
+						"slope": 0.8344,
+						"intercept": -0.1395
+					},
+					{
+						"lowerBound": 1.2,
+						"upperBound": 1.8,
+						"slope": 0.5596,
+						"intercept": 0.1523
+					},
+					{
+						"lowerBound": 1.8,
+						"upperBound": 2.4,
+						"slope": 0.5621,
+						"intercept": 0.1492
+					}
+				]
+			],
+			"isStorage": false,
+			"maximumStorageCapacity": 0.0,
+			"minimumStorageCapacity": 0.0,
+			"unitConversionFactorStorage": 1.0,
+			"capacitySetPoints": {},
+			"staticEnergyLoss": 0.0,
+			"dynamicEnergyLoss": 0.0,
+			"referenceDynamicEnergyLoss": 0.0,
+			"efficiencyInputStorage": 1.0,
+			"efficiencyOutputStorage": 1.0,
+			"efficiencyOutputReciprocal": 1.0,
+			"degradation": 0.0
+		}
+	],
+	"dependencies": [
+		{
+			"relevantInputs": [
+				"heat_exchanger"
+			],
+			"inputProcessInformation": [],
+			"relevantOutputs": [
+				"gasfired_generator"
+			],
+			"outputProcessInformation": [],
+			"typeOfDependency": "correlative"
+		}
+	]
+}
